@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 
-<html style="background-color:#292F33; color: #E1E8ED; background-image: url('BG.jpg')">
+<html style="color: #E1E8ED; background-image: url('BG.jpg'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <audio src="bg.mp3" autoplay="autoplay" loop="loop"></audio>
     <head>
     <title>Task 1 Derek Bancroft</title>
     </head>
@@ -10,23 +11,34 @@
             #bigcosby
                {display: block;
                 margin: auto;
-                width: 50%;}
+                width: 700px}
+            h2{font-size: 60px; font-family: monospace; text-align: center; text-align: center}
+            #menu {width:33%; float:left;text-align:center; padding-bottom: 10px}
         </style>    
     <body>
 
         
         <a name="top"></a> <!--Anchor to top of page-->
         <nav>
-            <a href="#Section1" style="font-size: 45px; color: white">Section 1</a><br>
-            <a href="#Section2" style="font-size: 45px; color: white">Section 2</a><br>
-            <a href="#Section3" style="font-size: 45px; color: white">Section 3</a><br>
-        </nav>
+            <div id="menu">
+                <a href="#Section1" style="font-size: 45px; color: white;font-family: fantasy">Section 1</a>
+            </div>
+            
+            <div id="menu">
+                <a href="#Section2" style="font-size: 45px; color: white;font-family: fantasy">Section 2</a>
+            </div>
+            
+            <div id="menu">
+                <a href="#Section3" style="font-size: 45px; color: white;font-family: fantasy">Section 3</a>
+            </div>
+       </nav>
         
 
         <img id="bigcosby" src="BigBilly.png">
-
-         <section id="Section1">
-        <h1>Section 1</h1>
+    
+        <section id="Section1">
+        <div style="position: absolute; left: 33%">
+        <h2>Section 1</h2>
             <a href="#top">
                 <img src="Billy.png" alt="NoCosby" style="width:500px">
             </a>
@@ -49,11 +61,13 @@
                 
                 </ul>
             </div>
+        </div>
         </section>
         
         
         <section id="Section2">
-        <h1>Section 2</h1>
+        <div style="position: absolute; left: 33%">    
+        <h2>Section 2</h2>
             <a href="#top">
                 <img src="Billy.png" alt="NoCosby" style="width:500px">
             </a>
@@ -76,11 +90,13 @@
                 
                 </ul>
             </div>
+        </div>    
         </section>
-
+        
         
         <section id="Section3">
-        <h1>Section 3</h1>
+        <div style="position: absolute; left: 33%">  
+        <h2>Section 3</h2>
             <a href="#top">
                 <img src="Billy.png" alt="NoCosby" style="width:500px">
             </a>
@@ -103,9 +119,9 @@
                 
                 </ul>
             </div>
+            <h3 style="text-align: center">"Zippity Bop Puddin Pop"</h3>
+        </div>
         </section>
-        
-        <h3 style="text-align: center">Zippity Bop Puddin Pop</h3>
     </body>
 
 </html>
